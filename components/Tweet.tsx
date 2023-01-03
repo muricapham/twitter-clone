@@ -126,8 +126,10 @@ function Tweet({ tweet }: Props) {
             type="text"
             placeholder="Write a comment..."
           />
+          {/*Disable the post functionality post deploy*/}
           <button
-            disabled={!input}
+            disabled
+            // disabled={!input}
             className="text-twitter disabled:text-gray-200"
             type="submit"
           >
