@@ -113,8 +113,8 @@ function TweetBox({ setTweets }: Props) {
               className="bg-twitter 
             px-5 py-2 font-bold 
             text-white rounded-full disabled:opacity-40"
-              // disabled
-              disabled={!input}
+              disabled
+              //disabled={!input}
             >
               Tweet
             </button>
