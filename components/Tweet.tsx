@@ -128,8 +128,8 @@ function Tweet({ tweet }: Props) {
           />
           {/*Disable the post functionality post deploy*/}
           <button
-            disabled
-            // disabled={!input}
+            // disabled
+            disabled={!input}
             className="text-twitter disabled:text-gray-200"
             type="submit"
           >
