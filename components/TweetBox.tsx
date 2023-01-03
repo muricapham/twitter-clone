@@ -107,12 +107,14 @@ function TweetBox({ setTweets }: Props) {
               <CalendarIcon className="h-5 w-5" />
               <LocationMarkerIcon className="h-5 w-5" />
             </div>
+            {/*Disable the post functionality post deploy*/}
             <button
               onClick={handleSubmit}
               className="bg-twitter 
             px-5 py-2 font-bold 
             text-white rounded-full disabled:opacity-40"
-              disabled={!input}
+              disabled
+              // disabled={!input}
             >
               Tweet
             </button>
