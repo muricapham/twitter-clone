@@ -8,7 +8,7 @@
 
 ## 📝 Project Description
 
-The Twitter Clone project allows users to view and post tweets to sanity.io.
+The Twitter Clone project allows users to view and post tweets to sanity.io. Connected with NextAuth to allow twitter logins and post tweets.
 
 ## 📚 Technologies
 
